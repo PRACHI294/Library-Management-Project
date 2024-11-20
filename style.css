@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1498878143/photo/book-stack-and-open-book-on-the-desk-in-modern-public-library.webp?b=1&s=612x612&w=0&k=20&c=VNyPBKIS8zq_58gLSa3fnpHq1DRVvjdZHzW4fGPcIb8=);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    margin:0;
+    height:100vh;
+  
+    font-family:Arial,Sans-serif;
+    padding:0;
+  }
+  h1,h2{
+      text-align:center;
+      color:#2C3E50;
+  }
+  
+  .form-container, .book-list-container {
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 600px;
+  }
+  
+  form label {
+      display: block;
+      margin: 10px 0 5px;
+  }
+  
+  form input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+  }
+  
+  button {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #2ecc71;
+  }
+  
+  table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+  }
+  
+  table th, table td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+  }
+  
+  table th {
+      background-color: #2C3E50;
+      color: white;
+  }
+  
+  table td button {
+      margin-right: 10px;
+      padding: 5px;
+      background-color: #f39c12;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+  
+  table td button:hover {
+      background-color: #e67e22;
+  }
+  
+  table td button.delete {
+      background-color: #e74c3c;
+  }
+  
+  table td button.delete:hover {
+      background-color: #c0392b;
+  }
+  .lableColor{
+    width:500px;
+    height:25px;
+    font-weight: bolder;
+    background-color: #2C3E50;
+    color:white;
+  }
